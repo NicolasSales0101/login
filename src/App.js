@@ -1,12 +1,12 @@
 import React from 'react';
-import Welcome from './componentes/Welcome';
 import './App.css';
+import CreateProduct from './Pages/CreateProduct';
 
 function App(){
     return(
-        <>
-            <Welcome name="Jean"/>
-        </>
+        <div className="App">
+            <CreateProduct/>
+        </div>
     );
 }
 
