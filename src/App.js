@@ -1,12 +1,12 @@
 import React from 'react';
-import Welcome from './componentes/Welcome';
 import './App.css';
+import SignUpMaterial from './Pages/SignUpMaterial';
 
 function App(){
     return(
-        <>
-            <Welcome name="Jean"/>
-        </>
+        <div className="App">
+            <SignUpMaterial/>
+        </div>
     );
 }
 
